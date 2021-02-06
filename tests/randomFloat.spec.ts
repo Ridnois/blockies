@@ -28,5 +28,5 @@ describe("randomFLoat", () => {
   describe("randomFloat", () => {
     const result = randomFloat({ seed: "foo" })
     expect(result()).not.toEqual(result());
-  })
+  });
 });
